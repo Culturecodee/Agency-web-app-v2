@@ -41,7 +41,7 @@ This repository contains the official CULTURECODE agency website — a modern Sa
 
 | Home | Services | Projects |
 | ---- | -------- | -------- |
-| ![Home](https://placehold.co/800x450/0f0f12/e4e4e7?text=Home) | ![Services](https://placehold.co/800x450/0f0f12/e4e4e7?text=Services) | ![Projects](https://placehold.co/800x450/0f0f12/e4e4e7?text=Projects) |
+| ![Home](/Pages/Home.png) | ![Services](/Pages/Service.png) | ![Projects](/Pages/Project.png) |
 
 *Replace placeholders with actual screenshots for your repository.*
 
