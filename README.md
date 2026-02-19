@@ -41,7 +41,7 @@ This repository contains the official CULTURECODE agency website — a modern Sa
 
 | Home | Services | Projects |
 | ---- | -------- | -------- |
-| ![Home](./public/Pages/Home.png) | ![Services](./public/Pages/Service.png) | ![Projects](./public/Pages/Project.png) |
+| ![Home](./public/Pages/Home.png) | ![Services](./public/Pages/Services.png) | ![Projects](./public/Pages/Projects.png) |
 
 *Replace placeholders with actual screenshots for your repository.*
 
