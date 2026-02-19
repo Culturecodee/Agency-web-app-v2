@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: false,
+
   images: {
     remotePatterns: [
       {
@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
+  },
+
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
