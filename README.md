@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CULTURECODE
+
+**Building Modern Digital Experiences**
+
+A premium digital product studio based in Jakarta, Indonesia. We craft web applications, SaaS platforms, and digital products that combine modern engineering culture with clean, intentional design.
+
+---
+
+## Preview
+
+This repository contains the official CULTURECODE agency website — a modern SaaS-style marketing site built to showcase our work, services, and approach. The design draws inspiration from best-in-class product companies: minimal, fast, and focused on clarity. It serves as both our public presence and a reference implementation for the kind of work we deliver.
+
+**Purpose:** A production-ready agency website that demonstrates our standards for typography, layout, motion, and component architecture. No templates. No shortcuts.
+
+---
+
+## Tech Stack
+
+| Technology   | Purpose                    |
+| ------------ | -------------------------- |
+| **Next.js**  | App Router, SSR, routing    |
+| **TypeScript** | Type safety, DX          |
+| **Tailwind CSS** | Utility-first styling  |
+| **shadcn/ui** | Accessible UI primitives |
+| **Framer Motion** | Animations, transitions |
+
+---
+
+## Features
+
+- **Modern SaaS design** — Dark theme, subtle gradients, refined spacing
+- **Fully responsive** — Mobile, tablet, desktop
+- **Smooth animations** — Scroll reveals, hover states, animated nav
+- **Premium UI components** — Cards, buttons, badges, forms
+- **Clean architecture** — Component-based, reusable patterns
+- **No watermarks** — Production-ready output
+
+---
+
+## Screenshots
+
+| Home | Services | Projects |
+| ---- | -------- | -------- |
+| ![Home](https://placehold.co/800x450/0f0f12/e4e4e7?text=Home) | ![Services](https://placehold.co/800x450/0f0f12/e4e4e7?text=Services) | ![Projects](https://placehold.co/800x450/0f0f12/e4e4e7?text=Projects) |
+
+*Replace placeholders with actual screenshots for your repository.*
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Clone the repository
+git clone https://github.com/culturecode/agency-web-app.git
+cd agency-web-app
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/                    # App Router pages
+│   ├── page.tsx            # Home
+│   ├── services/
+│   ├── projects/
+│   ├── about/
+│   ├── contact/
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+│   ├── ui/                 # Base UI primitives (button, card, input, etc.)
+│   ├── cards/              # Composed components
+│   ├── navbar.tsx
+│   ├── footer.tsx
+│   ├── hero.tsx
+│   ├── section.tsx
+│   └── reveal.tsx          # Scroll-reveal wrapper
+└── lib/
+    └── utils.ts            # Utilities (cn, etc.)
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Philosophy
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+CULTURECODE is built on three principles:
 
-## Deploy on Vercel
+**Clean code** — Readable, maintainable, and well-structured. Every component has a clear responsibility.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Modern design** — Typography, spacing, and motion that feel deliberate. No clutter, no noise.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Premium quality** — Output that could ship to enterprise clients. We don’t cut corners.
+
+---
+
+## Contact
+
+**Email:** [hello@culturecode.id](mailto:hello@culturecode.id)
+
+**Location:** Jakarta, Indonesia
+
+---
+
+© 2026 CULTURECODE. All rights reserved.
